@@ -6,12 +6,12 @@ function makeFileName(brandName, productName) {
   var formatBrand = brandName
     .slice()
     .toLowerCase()
-    .replace(" ", "-")
+    .replaceAll(" ", "-")
     .replace("\n", "");
   var formatProd = productName
+    .replaceAll(" ", "-")
     .slice()
     .toLowerCase()
-    .replace(" ", "-")
     .replace("\n", "");
   return formatBrand + "_" + formatProd;
 }

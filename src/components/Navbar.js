@@ -26,7 +26,7 @@ function Navbar(props) {
     return (
         <div className="navbar flex-inline">
             <NavLink 
-                to='/' 
+                to='/gm-pics' 
                 style={({ isActive }) =>
                     isActive ? activeStyle : normalStyle 
                 }

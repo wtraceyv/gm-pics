@@ -1,5 +1,16 @@
 import React from "react";
 
+import thorneWebsite from "../images/thorne-web-example.png";
+import thorneReference from "../images/thorne-vitamin-d-5000-featured.jpg";
+import photoshopEdit from "../images/change-width-or-delete-layer.png";
+import kraken from "../images/kraken.png";
+import photoshopExportSettings from "../images/export-settings.png";
+import newBottle from "../images/new-pic-wp.png";
+import newFacts from "../images/new-label-wp.png";
+import tagAndUploadNewFile from "../images/tag-and-upload-new-file.png";
+import uploadNewPic from "../images/drag-replace-pic.png";
+import gallerySearch from "../images/gallery-search.png";
+
 function Instructions(props) {
   return (
     <div className="instructions">
@@ -11,7 +22,7 @@ function Instructions(props) {
           already copied the proper name, so you can immediately save it as the
           correct filename (see below for how to format filenames).
         </p>
-        <img src="/images/thorne-web-example.png" alt="Thorne Product Page" />
+        <img src={thorneWebsite} alt="Thorne Product Page" />
         <p className="instructions-explain">
           Copy the supplement facts image the same way. If the facts are not a
           picture you can save but they are on the page, take a screenshot of it
@@ -48,10 +59,7 @@ function Instructions(props) {
           Make sure you have access to the reference Thorne product image we
           use:
         </p>
-        <img
-          src="/images/thorne-vitamin-d-5000-featured.jpg"
-          alt="Thorne Reference Pic"
-        />
+        <img src={thorneReference} alt="Thorne Reference Pic" />
         <p className="instructions-explain">
           Assuming you are using Photoshop and logged in, drag the reference
           image in. Then drag the picture to be edited right on top of it, and
@@ -59,17 +67,14 @@ function Instructions(props) {
           reference picture. Delete the reference picture from the hierarchy in
           the bottom right so only the intended, resized picture is left.
         </p>
-        <img
-          src="/images/change-width-or-delete-layer.png"
-          alt="Photoshop change width or delete layer"
-        />
+        <img src={photoshopEdit} alt="Photoshop change width or delete layer" />
         <p className="instructions-explain">
           Once the picture is edited (correct size, cropped, rotated, whatever
-          is needed), export the picture by going to File > Export > Save For
+          is needed), export the picture by going to File / Export / Save For
           Web (Legacy), and use the settings shown:
         </p>
         <img
-          src="/images/export-settings.png"
+          src={photoshopExportSettings}
           alt="Photoshop change width or delete layer"
         />
         <p className="instructions-explain">
@@ -101,7 +106,7 @@ function Instructions(props) {
           you have to make an account to do this, go ahead; for our purposes it
           should remain free always.
         </p>
-        <img src="/images/kraken.png" alt="Kraken Web Interface Screenshot" />
+        <img src={kraken} alt="Kraken Web Interface Screenshot" />
         <p className="instructions-explain">
           Whenever it finishes processing, download the whole zip and you now
           have your named images ready for the site.
@@ -126,13 +131,13 @@ function Instructions(props) {
         </p>
         <div>
           <img
-            src="/images/new-pic-wp.png"
+            src={newBottle}
             alt="Where users upload a new product bottle pic"
           />
         </div>
 
         <img
-          src="/images/new-label-wp.png"
+          src={newFacts}
           alt="Where users upload a new product supplement facts"
         />
         <p className="instructions-explain">
@@ -144,7 +149,7 @@ function Instructions(props) {
           changes (not in this screenshot):
         </p>
         <img
-          src="/images/tag-and-upload-new-file.png"
+          src={tagAndUploadNewFile}
           alt="Where users upload new product supplement facts"
         />
         <p className="instructions-explain">
@@ -159,16 +164,13 @@ function Instructions(props) {
         <p className="instructions-explain">
           <p className="instructions-substep">Image Updates</p>
           Featured (bottle) pics are really easy: click on the bottle picture
-          where you would normally add one, then when it loads, choose to
+          where you would normally add one, then when it loads, choose to 
           <i>replace</i> the image, under the "Upload a new file" button. Once
           that loads, just drag the new pic in and click "Upload". You will have
           to come back and hit an Update button when this is done, then once the
           Update is done, the picture should be updated.
         </p>
-        <img
-          src="/images/drag-replace-pic.png"
-          alt="Where users upload new product supplement facts"
-        />
+        <img src={uploadNewPic} alt="Uploading a new pic to replace another" />
         <p className="instructions-explain">
           <br />
           <br />
@@ -179,7 +181,7 @@ function Instructions(props) {
           have to remove slashes, dashes, periods, etc., from the search for the
           thing you want to appear.
         </p>
-        <img src="/images/gallery-search.png" alt="Label search" />
+        <img src={gallerySearch} alt="Label search" />
         <p className="instructions-explain">
           Once you choose a pic to replace, same process as for bottle pic
           updates. If you have a few valid options to replace, just pick one of
@@ -190,11 +192,11 @@ function Instructions(props) {
       <div>
         <p className="step">Note</p>
         <p className="instructions-explain">
-          Any changes you make — even after you successfully "update" — may not 
-          be immediately visible even on the normal website on your browser, 
-          because the old pictures are cached. If you need to check your work, 
-          sometimes it is easier on your phone, which is more likely to grab 
-          the new pictures.
+          Any changes you make — even after you successfully "update" — may not
+          be immediately visible even on the normal website on your browser,
+          because the old pictures are cached. If you need to check your work,
+          sometimes it is easier on your phone, which is more likely to grab the
+          new pictures.
         </p>
       </div>
       <div>

@@ -1,6 +1,6 @@
 {
   "name": "gm-pics",
-  "homepage": "https://wtraceyv.github.io/gm-pics/",
+    "homepage": "https://wtraceyv.github.io/gm-pics/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -62,7 +62,7 @@ function NamingTool(props) {
         <p className="instructions-explain">Results</p>
         <div style={{ textAlign: "center" }}>
           <div>
-            <textarea id="naming-tool-output" readOnly rows={30} value={namingToolOutput}/>
+            <textarea id="naming-tool-output" readOnly rows={33} value={namingToolOutput}/>
           </div>
           <button
             className="button-9"

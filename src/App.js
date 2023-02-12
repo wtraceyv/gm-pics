@@ -11,9 +11,9 @@ function App() {
         {/* organize pages */}
         <Route element={<Layout />}>
           {/* effective home page, lists out instructions by step w/ pics */}
-          <Route path="/" element={<Instructions />} />
+          <Route index path="/gm-pics" element={<Instructions />} />
           {/* do naming magic to make things easier */}
-          <Route path="naming-tool" element={<NamingTool />} />
+          <Route path="/naming-tool" element={<NamingTool />} />
         </Route>
       </Routes>
     </BrowserRouter>
