@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Instructions from "./components/Instructions";
+import Layout from "./components/Layout";
+import NamingTool from "./components/NamingTool";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* organize pages */}
+        <Route element={<Layout />}>
+          {/* effective home page, lists out instructions by step w/ pics */}
+          <Route path="/" element={<Instructions />} />
+          {/* do naming magic to make things easier */}
+          <Route path="naming-tool" element={<NamingTool />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
