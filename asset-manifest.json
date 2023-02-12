@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/gm-pics/static/css/main.559764b1.css",
-    "main.js": "/gm-pics/static/js/main.922e960a.js",
+    "main.js": "/gm-pics/static/js/main.8ea45fc8.js",
     "static/js/787.c8f1677a.chunk.js": "/gm-pics/static/js/787.c8f1677a.chunk.js",
+    "static/media/change-width-or-delete-layer.png": "/gm-pics/static/media/change-width-or-delete-layer.60b3fbfa449c6859c91e.png",
+    "static/media/thorne-web-example.png": "/gm-pics/static/media/thorne-web-example.b2361034e1283722f1aa.png",
+    "static/media/drag-replace-pic.png": "/gm-pics/static/media/drag-replace-pic.93e293e3d0f04c5d37a1.png",
+    "static/media/kraken.png": "/gm-pics/static/media/kraken.ef3999c9e1931b630697.png",
+    "static/media/export-settings.png": "/gm-pics/static/media/export-settings.bbdfd210183bdb828b10.png",
+    "static/media/gallery-search.png": "/gm-pics/static/media/gallery-search.64915968337617d62986.png",
+    "static/media/thorne-vitamin-d-5000-featured.jpg": "/gm-pics/static/media/thorne-vitamin-d-5000-featured.2ae8d2e470ce97f2277a.jpg",
+    "static/media/new-pic-wp.png": "/gm-pics/static/media/new-pic-wp.7b80400808114391dc20.png",
+    "static/media/tag-and-upload-new-file.png": "/gm-pics/static/media/tag-and-upload-new-file.51d7fe954ff90734f3bc.png",
+    "static/media/new-label-wp.png": "/gm-pics/static/media/new-label-wp.64eac5fc34c541b3fd98.png",
     "index.html": "/gm-pics/index.html",
     "main.559764b1.css.map": "/gm-pics/static/css/main.559764b1.css.map",
-    "main.922e960a.js.map": "/gm-pics/static/js/main.922e960a.js.map",
+    "main.8ea45fc8.js.map": "/gm-pics/static/js/main.8ea45fc8.js.map",
     "787.c8f1677a.chunk.js.map": "/gm-pics/static/js/787.c8f1677a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.559764b1.css",
-    "static/js/main.922e960a.js"
+    "static/js/main.8ea45fc8.js"
   ]
 }
